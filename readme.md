@@ -4,6 +4,10 @@
 
 **JobSeeker** is a Python project designed to automate the process of job searching and analysis. It scrapes job offers from both [Actiris](https://www.actiris.brussels/) and [LinkedIn](https://www.linkedin.com/), analyzes them using a local LLM via [LM Studio](https://lmstudio.ai/), and helps us the jobless devs to quickly identify relevant job offers. The project streamlines the job search workflow, making it easier to filter, justify, and track job applications.
 
+![Dashboard Linkedin jobs search](https://i.ibb.co/KPWwm84/Linkedin-dashboard.jpg)
+
+![Scrap Actiris](./jobless.gif)
+
 ---
 
 ## Project Structure
@@ -56,7 +60,7 @@
    ```
    If `requirements.txt` is missing, install manually:
    ```sh
-   pip install openai requests beautifulsoup4 selenium sqlite3 urllib3 Flask
+   pip install openai requests beautifulsoup4 selenium sqlite3 urllib3 webdriver_manager Flask
    ```
 
 3. **Install LM Studio**
@@ -83,13 +87,14 @@
 
 ### LinkedIn Workflow
 
-1. **Monitor Offers**
+1. **Search for offers and click on it & Analyze**
    ```sh
    python LinkedinJobs/linkedin_click_monitor.py
    ```
-   Run while browsing LinkedIn jobs. Extracted jobs are saved to `jobs_db.json`.
+   When running it you should click on each offer that interrest you, after that, it is instantly analyze and saved if it correspond to your profile. Saddly linkedin can't be easly scrap so it's a work arround.
+   Extracted jobs are saved to `jobs_db.json`.
 
-2. **Analyze & Track**
+2. **Track**
    ```sh
    python LinkedinJobs/linkedin_job_watcher_dashboard.py
    ```
@@ -99,4 +104,4 @@
 
 ## Last words
 
-Now, HR creates job postings using AI, the AI reads them, and an HR AI analyzes them. Welcome to the new era of
+Now, HR creates job postings using AI, the AI reads them, and an HR AI analyzes them. 🤡🤡🤡
