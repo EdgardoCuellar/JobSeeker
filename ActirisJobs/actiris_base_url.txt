@@ -1,0 +1,9 @@
+https://www.actiris.brussels/fr/citoyens/offres-d-emploi/
+?localisation=Tout
+&domains=Q%27,Q%274,Q%273,Q%271,Q%272
+&codesContrat=NOR,DUT,PES,PER,CPE%20OIP%20YG,PEF,CONTRAT%20INSERTION,INT,IND,JE,ACT,GCS,FPT,FBF,EUR,CSHB,CSB,BONUS%20JEUNES%20NON%20MARCHAND,C17,CONTR,INSER,POOL,STAGE,TSD,PUB,POOL%20H,EMPL.ECONOMIE%20SOC.TRANSITION33,EMPL.ECONOMIE%20SOC.INSERTION10,PTP-ENSEIGNEMENT%20CFB,PTP,123,258,BOP"
+&keywordSearchType=Partout
+&localisations=Bruxelles%20(19%20communes)%7Cprovinces%7C5
+&dateDerniereModification=2025-07-31
+&langue=Fr
+&page={}
